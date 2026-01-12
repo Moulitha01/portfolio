@@ -243,3 +243,93 @@ body {
 .contact-links a:hover {
   text-decoration: underline;
 }
+ /* =========================
+   MOBILE RESPONSIVENESS
+   ========================= */
+
+/* Tablets & phones */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 14px 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    margin-left: 16px;
+    font-size: 0.9rem;
+  }
+
+  /* Hero */
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero-desc {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  /* Sections */
+  .section {
+    padding: 50px 20px;
+  }
+
+  .section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  /* Experience */
+  .experience-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .experience-card svg {
+    margin: auto;
+  }
+
+  /* Projects */
+  .project-card {
+    padding: 25px;
+  }
+
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+
+  .navbar h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-sub {
+    font-size: 0.9rem;
+  }
+
+  .social-links {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .experience-card,
+  .project-card {
+    margin: 25px 10px;
+  }
+}
