@@ -8,7 +8,7 @@ import {
   Mail,
   Briefcase
 } from "lucide-react";
-import "./Portfolio.css";
+import "./portfolio.css";
 
 const Portfolio = () => {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
